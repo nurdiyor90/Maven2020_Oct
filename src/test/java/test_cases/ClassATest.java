@@ -8,13 +8,15 @@ public class ClassATest {
 	public void testCaseA () {
 		System.out.println("testCaseA");
 	}
-	@Test
-	public void testCaseB () {
-		System.out.println("testCaseB");
-	}
+	
 	@Test
 	public void testCaseC () {
 		System.out.println("testCaseC");
+		System.out.println("Another line");
+	}
+	@Test
+	public void testCase () {
+		System.out.println("Just for fun");
 	}
 	
 }
